@@ -1,0 +1,1 @@
+gcc  -undefined dynamic_lookup -I/usr/local/lua/include/ /usr/local/lib/liblua.a -llua -lm -ldl  -o test_main  test_main.c
